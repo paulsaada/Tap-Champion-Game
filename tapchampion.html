@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TAP CHAMPION</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<h1 class="title">TAP CHAMPION</h1>
+	<div class="game-desc">
+		<p>Instructions: Grab a friend, set a new winning score for EACH round, and the <span>fi</span>rst player to reach it wins the round!</p>
+		<p>CONTROLS: Player 1 controls the Z key. Player 2 controls the M key. Pressing R or the RESET button resets the game.</p>
+		<p>WARNING: Changing the winning score in the middle of a game resets the entire game.</p>
+	</div>
+	<div class="set-score">
+		<input id="number" type="number" value="5">
+		<button class="reset-button" id="reset">RESET</button>
+	</div>
+	<div class="score-wrapper">
+		<div class="score">
+			<h1 class="score-number" id="PlayerOne">0</h1>
+			<button>PLAYER ONE</button>
+		</div>
+		<div class="goal-score">
+			<p>Playing To: <span>5</span></p>
+		</div>
+		<div class="score">
+			<h1 class="score-number" id="PlayerTwo">0</h1>
+			<button>PLAYER TWO</button>
+		</div>
+	</div>
+
+	<!-- <h1><span class="score" id="PlayerOne">0</span> vs. <span class="score" id="PlayerTwo">0</span></h1> -->
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
